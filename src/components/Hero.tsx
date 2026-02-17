@@ -6,25 +6,25 @@ import { ArrowRight, Download, Github, Linkedin, Mail } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center pt-16 relative overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+    <section id="home" className="min-h-screen flex items-center justify-center pt-16 pb-20 md:pb-0 relative overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
       {/* Background decoration */}
       <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl" />
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl" />
 
-      <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div className="container mx-auto px-4 sm:px-6 grid md:grid-cols-2 gap-12 items-center">
         
         {/* Text Content */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.5 }}
           className="space-y-6"
         >
           <div className="inline-block px-4 py-2 bg-blue-500/10 text-blue-400 rounded-full text-sm font-semibold mb-4 border border-blue-500/20">
             Full Stack Developer
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
             Hi, I'm <br />
             <span className="text-blue-500">Sreerag Subhash</span>
           </h1>
@@ -34,10 +34,10 @@ export default function Hero() {
             passionate about turning complex problems into elegant solutions.
           </p>
 
-          <div className="flex flex-wrap gap-4 pt-4">
+          <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <a 
                 href="#contact"
-                className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-medium transition-all flex items-center gap-2 group shadow-lg shadow-blue-500/25"
+                className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-medium transition-all flex items-center justify-center gap-2 group shadow-lg shadow-blue-500/25 w-full sm:w-auto"
             >
               Contact Me
               <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
@@ -46,7 +46,7 @@ export default function Hero() {
             <a 
                 href="/Sreerag_Subhash_React_Fullstack_Resume.pdf" 
                 target="_blank"
-                className="px-6 py-3 bg-transparent border border-gray-600 hover:border-white text-gray-300 hover:text-white rounded-full font-medium transition-all flex items-center gap-2"
+                className="px-6 py-3 bg-transparent border border-gray-600 hover:border-white text-gray-300 hover:text-white rounded-full font-medium transition-all flex items-center justify-center gap-2 w-full sm:w-auto"
                 download
             >
               <Download size={18} />
@@ -54,10 +54,10 @@ export default function Hero() {
             </a>
           </div>
 
-          <div className="flex gap-6 pt-8 text-gray-400">
-             <a href="https://github.com/srg1998" target="_blank" rel="noreferrer" className="hover:text-white transition-colors"><Github size={24} /></a>
-             <a href="https://linkedin.com/in/sreerag-subhash" target="_blank" rel="noreferrer" className="hover:text-blue-400 transition-colors"><Linkedin size={24} /></a>
-             <a href="mailto:sreeragsubhash9@gmail.com" className="hover:text-red-400 transition-colors"><Mail size={24} /></a>
+          <div className="flex gap-8 pt-8 text-gray-400 justify-start">
+             <a href="https://github.com/srg1998" target="_blank" rel="noreferrer" className="hover:text-white transition-colors p-2 -ml-2"><Github size={24} /></a>
+             <a href="https://linkedin.com/in/sreerag-subhash" target="_blank" rel="noreferrer" className="hover:text-blue-400 transition-colors p-2"><Linkedin size={24} /></a>
+             <a href="mailto:sreeragsubhash9@gmail.com" className="hover:text-red-400 transition-colors p-2"><Mail size={24} /></a>
           </div>
         </motion.div>
 

@@ -48,7 +48,7 @@ const experiences = [
 export default function Experience() {
   return (
     <section id="experience" className="py-20 bg-slate-900 text-white">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-4 sm:px-6">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

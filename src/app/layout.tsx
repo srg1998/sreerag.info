@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://sreerag.info"),
   title: "Sreerag Subhash | Full Stack Developer",
   description: "Portfolio of Sreerag Subhash, a Full Stack Developer specializing in React, Next.js, and Node.js.",
 };

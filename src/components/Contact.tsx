@@ -6,7 +6,7 @@ import { Mail, Linkedin, Github, Phone, MapPin } from 'lucide-react';
 export default function Contact() {
   return (
     <footer id="contact" className="bg-slate-950 pt-20 pb-10 text-white border-t border-slate-800 overflow-hidden">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-4 sm:px-6">
         <div className="grid md:grid-cols-2 gap-12 mb-16">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
