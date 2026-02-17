@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl" />
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl" />
 
-      <div className="container mx-auto px-4 sm:px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div className="container mx-auto px-6 md:px-12 xl:px-24 grid md:grid-cols-2 gap-12 items-center">
         
         {/* Text Content */}
         <motion.div
@@ -44,7 +44,7 @@ export default function Hero() {
             </a>
             
             <a 
-                href="/Sreerag_Subhash_React_Fullstack_Resume.pdf" 
+                href="/Sreerag_Subhash_Fullstack_Resume.pdf" 
                 target="_blank"
                 className="px-6 py-3 bg-transparent border border-gray-600 hover:border-white text-gray-300 hover:text-white rounded-full font-medium transition-all flex items-center justify-center gap-2 w-full sm:w-auto"
                 download

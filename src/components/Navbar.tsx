@@ -32,7 +32,7 @@ export default function Navbar() {
         scrolled ? 'bg-slate-900/80 backdrop-blur-md shadow-lg py-2' : 'bg-transparent py-4'
       }`}
     >
-      <div className="container mx-auto px-4 sm:px-6 flex justify-between items-center">
+      <div className="container mx-auto px-6 md:px-12 xl:px-24 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold text-blue-400">
           Sreerag<span className="text-white">.dev</span>
         </Link>
