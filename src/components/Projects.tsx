@@ -5,9 +5,9 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
-    title: "PakQuality App",
+    title: "Quality Testing Platform",
     tech: "React.js, Node.js, Express.js, MSSQL",
-    description: "Large-scale quality testing platform for DrinkPak enabling automated execution and monitoring workflows.",
+    description: "Large-scale quality testing platform for a canned goods manufacturer, enabling automated test execution, defect tracking, and production monitoring workflows.",
     tags: ["Quality Control", "Automation", "Enterprise"]
   },
   {
