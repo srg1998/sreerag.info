@@ -10,7 +10,7 @@ const experiences = [
     period: "Present", // Assumed current based on 'Providng' logic or lack of end date, or just list as is. Resume doesn't specify dates for roles, only Education 2017-2021. I will omit dates if not clear or use generic placeholders? Actually, I'll format without specific dates if not provided, or just show company/role.
     description: [
       "Developed scalable full stack applications using React.js, Node.js, Express.js, and MSSQL.",
-      "Played a major role in building a large-scale quality testing platform for DrinkPak enabling automated execution and monitoring workflows.",
+      "Played a major role in building a large-scale quality testing platform for a canned goods company, enabling automated test execution, defect tracking, and production monitoring workflows.",
       "Designed high-performance REST APIs and optimized database queries improving system responsiveness.",
       "Implemented asynchronous background job processing using Redis and BullMQ for distributed task execution.",
       "Deployed containerized worker and API services on Azure Container Apps ensuring high availability and scalability."
